@@ -1,6 +1,6 @@
 {
   "name": "velkuns/codingame-core-game",
-  "description": "Codingame - Template application game / puzzle",
+  "description": "Codingame - Core Game lib (I/O, Logger, App & Game)",
   "type": "library",
   "license": "MIT",
 
@@ -13,8 +13,8 @@
 
   "autoload": {
     "psr-4": {
-      "Velkuns\\Codingame\\Core\\Game\\": "./src",
-      "Velkuns\\Codingame\\Core\\Game\\Tests\\": "./tests"
+      "Velkuns\\Codingame\\Core": "./src",
+      "Velkuns\\Codingame\\Core\\Tests\\": "./tests"
     }
   },
 
