@@ -1,6 +1,6 @@
 {
   "name": "velkuns/codingame-core-game",
-  "description": "Codingame - Core Game lib (I/O, Logger, App & Game)",
+  "description": "Codingame - Core Game lib (I/O, App & Game)",
   "type": "library",
   "license": "MIT",
 
