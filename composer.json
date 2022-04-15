@@ -21,12 +21,14 @@
   "repositories": [
     {
       "type": "github",
-      "url": "https://github.com/velkuns/codingame-core"
+      "url": "https://github.com/velkuns/codingame-core-utils"
     }
   ],
 
   "require": {
-    "php": "7.3.*|7.4.*|8.0.*|8.1.*"
+    "php": "7.3.*|7.4.*|8.0.*|8.1.*",
+
+    "velkuns/codingame-core-utils": "^1.0"
   },
 
   "require-dev": {

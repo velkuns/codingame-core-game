@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Velkuns\Codingame\Core;
 
 use Velkuns\Codingame\Core\Game\GameInterface;
-use Velkuns\Codingame\Core\Logger\Logger;
+use Velkuns\Codingame\Core\Utils\Logger;
 
 /**
  * Class Application
@@ -38,6 +38,7 @@ final class Application
     public function run(): void
     {
         $logger = new Logger();
+
         while (true) {
             try {
                 $this->game->newTurn();
